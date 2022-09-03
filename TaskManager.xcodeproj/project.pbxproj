@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		506DD43B28C2680C0081F015 /* TaskManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506DD43A28C2680C0081F015 /* TaskManagerApp.swift */; };
-		506DD43D28C2680C0081F015 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506DD43C28C2680C0081F015 /* ContentView.swift */; };
+		506DD43D28C2680C0081F015 /* GettingStartedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506DD43C28C2680C0081F015 /* GettingStartedView.swift */; };
 		506DD43F28C2680E0081F015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 506DD43E28C2680E0081F015 /* Assets.xcassets */; };
 		506DD44228C2680E0081F015 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 506DD44128C2680E0081F015 /* Preview Assets.xcassets */; };
+		506DD44928C268430081F015 /* ColorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506DD44828C268430081F015 /* ColorConstants.swift */; };
+		506DD44B28C36B060081F015 /* ImageConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506DD44A28C36B060081F015 /* ImageConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		506DD43728C2680C0081F015 /* TaskManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		506DD43A28C2680C0081F015 /* TaskManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManagerApp.swift; sourceTree = "<group>"; };
-		506DD43C28C2680C0081F015 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		506DD43C28C2680C0081F015 /* GettingStartedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GettingStartedView.swift; sourceTree = "<group>"; };
 		506DD43E28C2680E0081F015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		506DD44128C2680E0081F015 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		506DD44828C268430081F015 /* ColorConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConstants.swift; sourceTree = "<group>"; };
+		506DD44A28C36B060081F015 /* ImageConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +55,10 @@
 		506DD43928C2680C0081F015 /* TaskManager */ = {
 			isa = PBXGroup;
 			children = (
+				506DD44C28C370F50081F015 /* Views */,
 				506DD43A28C2680C0081F015 /* TaskManagerApp.swift */,
-				506DD43C28C2680C0081F015 /* ContentView.swift */,
+				506DD44828C268430081F015 /* ColorConstants.swift */,
+				506DD44A28C36B060081F015 /* ImageConstants.swift */,
 				506DD43E28C2680E0081F015 /* Assets.xcassets */,
 				506DD44028C2680E0081F015 /* Preview Content */,
 			);
@@ -65,6 +71,22 @@
 				506DD44128C2680E0081F015 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		506DD44C28C370F50081F015 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				506DD44D28C371000081F015 /* GettingStartedView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		506DD44D28C371000081F015 /* GettingStartedView */ = {
+			isa = PBXGroup;
+			children = (
+				506DD43C28C2680C0081F015 /* GettingStartedView.swift */,
+			);
+			path = GettingStartedView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +159,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				506DD43D28C2680C0081F015 /* ContentView.swift in Sources */,
+				506DD44928C268430081F015 /* ColorConstants.swift in Sources */,
+				506DD43D28C2680C0081F015 /* GettingStartedView.swift in Sources */,
 				506DD43B28C2680C0081F015 /* TaskManagerApp.swift in Sources */,
+				506DD44B28C36B060081F015 /* ImageConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
