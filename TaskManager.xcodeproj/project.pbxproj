@@ -13,6 +13,19 @@
 		506DD44228C2680E0081F015 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 506DD44128C2680E0081F015 /* Preview Assets.xcassets */; };
 		506DD44928C268430081F015 /* ColorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506DD44828C268430081F015 /* ColorConstants.swift */; };
 		506DD44B28C36B060081F015 /* ImageConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506DD44A28C36B060081F015 /* ImageConstants.swift */; };
+		506DD44F28C3717D0081F015 /* SquareCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506DD44E28C3717D0081F015 /* SquareCircle.swift */; };
+		506DD45128C3A10B0081F015 /* ImageHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506DD45028C3A10B0081F015 /* ImageHeader.swift */; };
+		506DD45328C3A2320081F015 /* BottomOfGettingStartedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506DD45228C3A2320081F015 /* BottomOfGettingStartedView.swift */; };
+		506DD45528C3A2580081F015 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506DD45428C3A2580081F015 /* Background.swift */; };
+		506DD45728C3A2980081F015 /* ManageTasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506DD45628C3A2980081F015 /* ManageTasksView.swift */; };
+		506DD45928C3A3CD0081F015 /* StartActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506DD45828C3A3CD0081F015 /* StartActionView.swift */; };
+		506DD45C28C3C5B90081F015 /* MonthlyReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506DD45B28C3C5B90081F015 /* MonthlyReviewView.swift */; };
+		507E130928C3D7C400D81784 /* TopAvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507E130828C3D7C400D81784 /* TopAvatarView.swift */; };
+		507E130B28C3D7F800D81784 /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507E130A28C3D7F800D81784 /* CircleImageView.swift */; };
+		507E130D28C3FDD200D81784 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507E130C28C3FDD200D81784 /* TitleView.swift */; };
+		507E130F28C3FEEA00D81784 /* CurrentTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507E130E28C3FEEA00D81784 /* CurrentTaskView.swift */; };
+		507E131128C41A2F00D81784 /* MonthlyReviewTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507E131028C41A2F00D81784 /* MonthlyReviewTitleView.swift */; };
+		507E131328C41C6200D81784 /* TaskSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507E131228C41C6200D81784 /* TaskSummaryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +36,19 @@
 		506DD44128C2680E0081F015 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		506DD44828C268430081F015 /* ColorConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConstants.swift; sourceTree = "<group>"; };
 		506DD44A28C36B060081F015 /* ImageConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageConstants.swift; sourceTree = "<group>"; };
+		506DD44E28C3717D0081F015 /* SquareCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareCircle.swift; sourceTree = "<group>"; };
+		506DD45028C3A10B0081F015 /* ImageHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageHeader.swift; sourceTree = "<group>"; };
+		506DD45228C3A2320081F015 /* BottomOfGettingStartedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomOfGettingStartedView.swift; sourceTree = "<group>"; };
+		506DD45428C3A2580081F015 /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		506DD45628C3A2980081F015 /* ManageTasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageTasksView.swift; sourceTree = "<group>"; };
+		506DD45828C3A3CD0081F015 /* StartActionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartActionView.swift; sourceTree = "<group>"; };
+		506DD45B28C3C5B90081F015 /* MonthlyReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyReviewView.swift; sourceTree = "<group>"; };
+		507E130828C3D7C400D81784 /* TopAvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopAvatarView.swift; sourceTree = "<group>"; };
+		507E130A28C3D7F800D81784 /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
+		507E130C28C3FDD200D81784 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		507E130E28C3FEEA00D81784 /* CurrentTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentTaskView.swift; sourceTree = "<group>"; };
+		507E131028C41A2F00D81784 /* MonthlyReviewTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyReviewTitleView.swift; sourceTree = "<group>"; };
+		507E131228C41C6200D81784 /* TaskSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskSummaryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +102,7 @@
 		506DD44C28C370F50081F015 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				506DD45A28C3C5700081F015 /* MonthlyReviewView */,
 				506DD44D28C371000081F015 /* GettingStartedView */,
 			);
 			path = Views;
@@ -85,8 +112,28 @@
 			isa = PBXGroup;
 			children = (
 				506DD43C28C2680C0081F015 /* GettingStartedView.swift */,
+				506DD44E28C3717D0081F015 /* SquareCircle.swift */,
+				506DD45028C3A10B0081F015 /* ImageHeader.swift */,
+				506DD45228C3A2320081F015 /* BottomOfGettingStartedView.swift */,
+				506DD45428C3A2580081F015 /* Background.swift */,
+				506DD45628C3A2980081F015 /* ManageTasksView.swift */,
+				506DD45828C3A3CD0081F015 /* StartActionView.swift */,
 			);
 			path = GettingStartedView;
+			sourceTree = "<group>";
+		};
+		506DD45A28C3C5700081F015 /* MonthlyReviewView */ = {
+			isa = PBXGroup;
+			children = (
+				506DD45B28C3C5B90081F015 /* MonthlyReviewView.swift */,
+				507E130828C3D7C400D81784 /* TopAvatarView.swift */,
+				507E130A28C3D7F800D81784 /* CircleImageView.swift */,
+				507E130C28C3FDD200D81784 /* TitleView.swift */,
+				507E130E28C3FEEA00D81784 /* CurrentTaskView.swift */,
+				507E131028C41A2F00D81784 /* MonthlyReviewTitleView.swift */,
+				507E131228C41C6200D81784 /* TaskSummaryView.swift */,
+			);
+			path = MonthlyReviewView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,10 +206,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				506DD45728C3A2980081F015 /* ManageTasksView.swift in Sources */,
+				507E131128C41A2F00D81784 /* MonthlyReviewTitleView.swift in Sources */,
 				506DD44928C268430081F015 /* ColorConstants.swift in Sources */,
 				506DD43D28C2680C0081F015 /* GettingStartedView.swift in Sources */,
+				507E130F28C3FEEA00D81784 /* CurrentTaskView.swift in Sources */,
+				507E130D28C3FDD200D81784 /* TitleView.swift in Sources */,
+				506DD45928C3A3CD0081F015 /* StartActionView.swift in Sources */,
+				506DD45128C3A10B0081F015 /* ImageHeader.swift in Sources */,
+				507E131328C41C6200D81784 /* TaskSummaryView.swift in Sources */,
+				506DD45528C3A2580081F015 /* Background.swift in Sources */,
+				507E130B28C3D7F800D81784 /* CircleImageView.swift in Sources */,
+				506DD44F28C3717D0081F015 /* SquareCircle.swift in Sources */,
+				506DD45328C3A2320081F015 /* BottomOfGettingStartedView.swift in Sources */,
+				506DD45C28C3C5B90081F015 /* MonthlyReviewView.swift in Sources */,
 				506DD43B28C2680C0081F015 /* TaskManagerApp.swift in Sources */,
 				506DD44B28C36B060081F015 /* ImageConstants.swift in Sources */,
+				507E130928C3D7C400D81784 /* TopAvatarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
